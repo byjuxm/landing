@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Le Wagon - Web Development Sprint</title>
+
+  <!-- Coding page -->
+  <link href="https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: rgb(0, 0, 0); 
+      color: rgb(249, 242, 219); 
+    }
+
+    .banner {
+      position: relative;
+    }
+
+    .banner img {
+      width: 100%;
+      height: auto;
+    }
+
+    .img-cont {
+      text-align: center;
+    }
+    .img-cont img {
+      width: 100%;
+      height: auto;
+    }
+
+    .banner-text {
+      font-family: "Century Gothic", "Arial";
+      position: absolute;
+      top: 40%;
+      left: 85%;
+      transform: translate(-50%, -50%);
+      text-align: right;
+    }
+
+
+    .banner-text h1 {
+      font-size: 3vw;
+    }
+
+    .copyright {
+      position: absolute;
+      font-size: 1vw; 
+      top: 94%;
+      left: 3%;
+    }
+
+
+  .AboutMe-Section img {
+    width: 25vw;
+    height: auto;
+    
+  }
+
+  .button {
+    background-color: rgb(209, 201, 174);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2vw;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.8s ease;
+  }
+
+  .button:hover {
+    background-color: black;
+    color:rgb(209, 201, 174);
+
+  }
+
+  
+  #tableau1 {
+    font-family: "Century Gothic", "Arial";
+    position: relative;
+    left: 8%;
+    font-size: 1.4vw;
+    width: 85%;
+  }
+
+  #tableau1 td {
+    padding: 1em;
+    text-align: justify;
+  }
+
+  #tableau2 {
+    font-family: "Century Gothic", "Arial";
+    position: relative;
+    font-size: 1.2vw;
+    width: 100%;
+  }
+
+  #tableau2 td {
+    padding: 1em;
+    text-align: justify;
+    width: 33.33%;
+    border-bottom: 1px solid rgb(209, 201, 174);
+  }
+
+  #tableau2 caption {
+    font-weight : bold;
+    font-size: 3vw;
+    text-align: center;
+
+  }
+
+
+#tableau2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+#tableau3 {
+  font-family: "Century Gothic", "Arial";
+    position: relative;
+    font-size: 1.2vw;
+    width: 100%;
+  }
+
+  #tableau3 td {
+    padding: 1em;
+    text-align: justify;
+    width: 25%;
+    border-bottom: 1px solid rgb(209,201,174);
+  }
+
+
+#tableau3 img {
+  max-width: 100%;
+  height: auto;
+}
+
+#tableau4 {
+  width: 100%;
+  font-size: 1.2vw;
+  text-align: center;
+  color: black;
+    background-color: rgb(209,201,174);
+}
+
+  </style>
+</head>
+
+<body>
+  <!-- Banner section -->
+  <div class="banner"> 
+    <img src="images/Bannière 4.jpg" alt="Banner">
+    <div class="banner-text">
+      <h1>Hi, I'm Juliette.<br> I'm a photographer.<br> I capture life moments.</h1>
+    </div>
+    <div class="copyright">©Juliette Mordelet</div> 
+  </div>
+
+  <!-- About me section -->
+
+  <table id="tableau1">
+    <tr>
+      <td>
+        <div class="AboutMe-Section">
+          <br>
+            <img src="images/JM (1).jpg" alt="Logo"></div>
+      </td>
+      <td>
+       <h1>Let's celebrate the beauty, one frame at a time.</h1>
+       Passionate about exploration and adventure, I aim to uncover new experiences and share them with you through photography. 
+          <br><br> Join me on unforgettable small-group excursions, each offering a distinct theme and immersive experience in captivating locations. Whether we're chasing sunsets on secluded beaches or capturing the serenity of snowy landscapes, every moment promises to be a memorable journey.
+      </td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  
+  <table id="tableau2">
+    <caption> - Choose Your Experience - <br><br> </caption> 
+    <tr>
+      <td>
+        <h2>Explore South Korea</h2>
+        Immerse yourself in South Korea's rich cultural tapestry on our photography excursion from Seoul to Busan and Jeju. Capture the vibrant markets and serene temples of Seoul, the dynamic blend of urban modernity and coastal charm in Busan, and the breathtaking beauty of Jeju's volcanic landscapes. Explore each destination's unique cultural and natural landscapes, creating unforgettable memories through your lens. <br>
+        <br> Only a few places left for the next edition - reserve yours now ! 
+        <br><br><button class="button" onclick="alert('The first button has been clicked.')">Join it</button>
+      </td>
+      <td>
+        
+        <img src="images/DSCF3850 (1).jpg" alt="Seoul Landscape">
+      </td>
+      <td>
+        <img src="images/DSCF3412 (1).jpg" alt="A lady in a korean traditional outfit">
+      </td>
+    </tr>
+  </table>
+
+
+  <table id="tableau3">
+    <tr>
+      <td>
+      <img src="images/2023_1001_16060600 (end).jpg" alt="Sunset on the beach in Spain">
+      </td>
+      <td>
+        <img src="images/2022_0728_23532000 (end).jpg" alt="Coastal Landscape in Spain">
+      </td>
+      <td>
+        <img src="images/DSCF7601 (end).jpg" alt="Sunset over the dunes in Spain">
+      </td>
+      <td>
+        <h2>Spanish Adventures</h2> Join me for a seaside photography excursion along Spain's picturesque shores. Capture the beauty of coastal landscapes, from golden sunsets to rugged cliffs. Explore hidden coves and sandy beaches, capturing moments of tranquility and natural beauty.<br>
+        <br><button class="button" onclick="alert('The second button has been clicked.')">Join it</button>
+      </td>
+    </tr>
+
+  </table>
+  
+  <table id="tableau3">
+    <tr>
+      <td>
+        <h2>Alpine Escapes</h2>Venture into the heart of the mountains on this photography excursion that celebrates alpine beauty. From towering peaks to lush valleys, experience the majesty of mountain landscapes in all their glory. Whether it's capturing the play of light on snow-capped summits or the vibrant colors of alpine flora, let's embark on a journey of awe-inspiring vistas and breathtaking panoramas. <br>
+        <br><button class="button" onclick="alert('The third button has been clicked.')">Join it</button>
+      </td>
+      <td>
+      <img src="images/2022_1224_18182200 (6).jpg" alt="Snowy landscape in the Alps">
+      </td>
+      <td>
+        <img src="images/2022_1224_18172800 (2).jpg" alt="Forest fog in the Alps">
+      </td>
+      <td>
+        <img src="images/2022_1224_18194600 (1).jpg" alt="Snowy landscape in the Alps 2">
+      </td>
+
+    </tr>
+
+  </table>
+
+  <table id="tableau3">
+    <tr>
+      <td>
+      <img src="images/IMG_0172 (end).jpg" alt="A girl and his little brother in the South of France">
+      </td>
+      <td>
+        <img src="images/2022_0413_19351600 (end).jpg" alt="Little boy facing the sea in the South of France">
+      </td>
+      <td>
+        <img src="images/IMG_0560 (end).jpg" alt="Young girl in the fields in the South of France">
+      </td>
+      <td>
+        <h2>Family Expeditions</h2>Capture cherished moments in the south of France. Explore scenic spots together, honing your photography skills from playful nature scenes to candid portraits. Let's create lasting memories with photographs that narrate your family's story. <br>
+        <br><button class="button" onclick="alert('The fourth button has been clicked.')">Join it</button>
+      </td>
+    </tr>
+  </table>
+
+  <table id="tableau4">
+
+  <tr>
+<td>
+  <br>
+  All rights reserved. ©Juliette Mordelet, 2024<br>
+  <br>
+</td>
+  </tr>
+  </table>
+  <!-- Footer section -->
+  
+</body>
+</html>
